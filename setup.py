@@ -10,7 +10,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 install_requires = [
-    "django>=2,<4",
+    "django>=4.2,<5",
     "django-ipware>=2",
     "djangorestframework>=3",
 ]
